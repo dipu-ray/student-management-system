@@ -1,5 +1,14 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Visual Studio local setting and cache files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-/.vs
+# C# and .NET Build folder (Your project contains these)
+[Bb]in/
+[Oo]bj/
+
+# Others unnecessary files
+*.log
+*.tmp
